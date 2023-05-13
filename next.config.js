@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  pageExtensions: ["tsx"],
   compiler: {
     styledComponents: true,
   },
